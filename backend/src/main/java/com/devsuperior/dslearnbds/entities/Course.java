@@ -29,13 +29,12 @@ public class Course implements Serializable {
 	public Course() {
 	}
 
-	public Course(Long id, String name, String imgUri, String imgGrayUri, List<Offer> offers) {
+	public Course(Long id, String name, String imgUri, String imgGrayUri) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.imgUri = imgUri;
 		this.imgGrayUri = imgGrayUri;
-		this.offers = offers;
 	}
 
 	public Long getId() {
